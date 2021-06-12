@@ -1,0 +1,146 @@
+.logo {
+    width: 92px;
+    height: 92px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #777777;
+    font: normal normal medium 22px/27px Montserrat;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.colMiddle{
+    width: 33.33%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.colRight {
+    /* width: 33.33%; */
+    margin: auto;
+}
+
+input[type="button"]{
+    width: 150px;
+    height: 45px;
+    border: 2px solid #115FA7;
+    background: #FFFFFF;
+    border-radius: 40px;
+    opacity: 1;
+    color: #115FA7;
+}
+
+input[type="button"]:hover {
+    background-color: #115FA7;
+    color: #FFFFFF;
+}
+
+ .body{
+    width: 100%;
+    margin-top: 3%;
+    margin-left: 30%;
+    display: flex;
+}
+
+.right {
+    width: 50%;
+}
+
+ img {
+    width: 482px;
+    margin: auto;
+    height: 439px;
+    top: 403px;
+    left: 1223px;
+}
+
+.container h2 {
+    font-weight: 700;
+    font-style: inherit;
+    letter-spacing: 4px;
+    margin-left:12%;
+    margin-bottom: 3%;
+}
+
+.container hr {
+    width: 20%;
+    margin-left: 12%;
+}
+
+.container .left {
+    width: 50%;
+}
+
+.container .line {
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+}
+
+.container .line p {
+    margin-left: 35%;
+}
+
+
+input[type="text"], input[type="email"], input[type="password"]{
+    width: 50%;
+    height: 45px;
+    margin-bottom: 5%;
+    margin-left: 12%;
+    border: 1px solid #BCBCBC;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.container button {
+    width: 50%;
+    height: 45px;
+    margin-bottom: 5%;
+    margin-left: 12%;
+    background-color: #115FA7;
+    border: 1px solid #BCBCBC;
+    color: #FFFFFF;
+    border-radius: 7px;
+    padding: 5px 2px;
+}
+
+/* .container button:hover{
+    background-color: #0f4a81;
+} */
+
+button img {
+    width: 28px;
+    height: 28px;
+}
+
+
+.container .google {
+    background-color: #FFFFFF;
+    color: #777777;
+}
+
+.container .twitter {
+    background-color: #03A9F4;
+}
+
+.container .twitter img {
+    color: #FFFFFF;
+}
+
+.right .container img {
+    width: 40%;
+    height: 50%;
+    margin-left:30%;
+    margin-top: 30%;
+}
